@@ -32,10 +32,10 @@ export function Manage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 space-x-1 content-center justify-items-center">
           <div className='col-span-6'>
             <Image
-              src='/images/manage/management.jpg'
+              src='/images/ev-news/battery-tech.jpg'
               alt='payment'
-              width={600}
-              height={500}
+              width={500}
+              height={400}
               className='rounded-md'
             />
           </div>
