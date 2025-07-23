@@ -7,8 +7,8 @@ import { footerlLinksData } from '@/app/types/footerlinks'
 
 const HeaderData: headerItem[] = [
   { label: 'ໜ້າຫຼັກ', href: '/#hero' },
-  { label: 'ລົງທະບຽນ EV', href: '/interview-ev ' },
-  { label: 'ຂ່າວສານ EV', href: '/ev-news ' },
+  { label: 'ແບບສຳຫຼວດ EV', href: '/interview-ev ' },
+  { label: 'ຂ່າວສານ', href: '/ev-news ' },
   { label: 'ຄິດໄລ່ຄ່າໄຟ', href: '/electricite ' },
   { label: 'ສ້າງ QR Code', href: '/generate-qrcode ' },
   // { label: 'Docs', href: '/documentation' },
@@ -91,8 +91,8 @@ const PlansData: plansData[] = [
 
 const FooterLinks: footerlLinksData[] = [
   { label: 'ໜ້າຫຼັກ', href: '/#hero' },
-  { label: 'ລົງທະບຽນ EV', href: '/interview-ev ' },
-  { label: 'ຂ່າວສານ EV', href: '/ev-news ' },
+  { label: 'ແບບສຳຫຼວດ', href: '/interview-ev ' },
+  { label: 'ຂ່າວສານ', href: '/ev-news ' },
   { label: 'ຄິດໄລ່ຄ່າໄຟ', href: '/electricite ' },
   { label: 'ສ້າງ QR Code', href: '/generate-qrcode ' },
   // { label: 'Home', href: '/#product' },

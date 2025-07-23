@@ -158,7 +158,8 @@ const Footer = () => {
             <div>
               <p className="font-medium text-white mb-4">Address</p>
               <ul className="space-y-3 text-xm">
-                <li><p className="text-white/60 flex items-center"><IoLocationOutline />: ບ້ານ ທົ່ງກາງ, ເມືອງ ສີສັດຕະນາກ, ນະຄອນຫຼວງວຽງຈັນ</p></li>
+                <li><p className="text-white/60 flex items-center"><IoLocationOutline />: ບ້ານ ທົ່ງກາງ, ເມືອງ ສີສັດຕະນາກ,</p></li>
+                <li><p className="text-white/60 flex items-center pl-6">ນະຄອນຫຼວງວຽງຈັນ</p></li>
               </ul>
             </div>
           </div>
