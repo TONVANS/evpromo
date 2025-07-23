@@ -7,6 +7,7 @@ import { footerlLinksData } from '@/app/types/footerlinks'
 import { socialLinksData } from '@/app/types/sociallinks'
 import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineAttachEmail } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
 
 const Footer = () => {
   const [footerLinks, setFooterLinks] = useState<footerlLinksData[]>([])
@@ -157,7 +158,7 @@ const Footer = () => {
             <div>
               <p className="font-medium text-white mb-4">Address</p>
               <ul className="space-y-3 text-xm">
-                <li><p className="text-white/60">ບ້ານ ທົ່ງກາງ, ເມືອງ ສີສັດຕະນາກ, ນະຄອນຫຼວງວຽງຈັນ</p></li>
+                <li><p className="text-white/60"><IoLocationOutline />: ບ້ານ ທົ່ງກາງ, ເມືອງ ສີສັດຕະນາກ, ນະຄອນຫຼວງວຽງຈັນ</p></li>
               </ul>
             </div>
           </div>
